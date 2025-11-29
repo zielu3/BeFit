@@ -1,7 +1,7 @@
 ### Konto administratora
 - **Email:** admin@befit.com
-- **Has≥o:** Admin123!
+- **Has≈Ço:** Admin123!
 
-### Konto testowe uøytkownika
-- **Email:** igor@wp.pl
-- **Has≥o:** Igor123!
+### Konto testowe u≈ºytkownika
+- **Email:** igor@Wp.pl
+- **Has≈Ço:** Igor123!
