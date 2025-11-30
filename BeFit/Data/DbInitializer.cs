@@ -41,6 +41,27 @@ namespace BeFit.Data
                     await userManager.AddToRoleAsync(admin, "Admin");
                 }
             }
+
+            // konto testowe u¿ytkownika
+            var testUserEmail = "igor@wp.pl";
+            var testUser = await userManager.FindByEmailAsync(testUserEmail);
+            
+            if (testUser == null)
+            {
+                var user = new ApplicationUser
+                {
+                    UserName = testUserEmail,
+                    Email = testUserEmail,
+                    EmailConfirmed = true
+                };
+
+                var result = await userManager.CreateAsync(user, "Igor123!");
+                
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(user, "User");
+                }
+            }
         }
     }
 }
