@@ -3,5 +3,5 @@
 - **Hasło:** Admin123!
 
 ### Konto testowe użytkownika
-- **Email:** igor@Wp.pl
+- **Email:** igor@wp.pl
 - **Hasło:** Igor123!
